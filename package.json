@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-console-awesome",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "babel plugin that will add a message before to any console.log so console.log(n) -> console.log('awesome', n)",
   "main": "index.js",
   "keywords": [
