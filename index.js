@@ -3,7 +3,7 @@ module.exports = function() {
         visitor: {
             CallExpression(path, options) {
                 const customMessage = options.opts;
-                let defaultString = 'You are Awesome'
+                let defaultString = 'You Are Awesome'
                 if(!customMessage || customMessage.message) {
                     defaultString = customMessage.message;
                 }
